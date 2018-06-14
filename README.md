@@ -16,6 +16,7 @@ mainNpmFiles('**/*.js');
 See, that was easy. Missed anything ? Check the source, it's a fairly small file :)
 
 Here are some options you can send along:
+* `package` - Only the specified package. Optional.
 * `nodeModules` - Location of your modules, defaults to `./node_modules`;
 * `pkgJson` - Location of your package.json, defaults to `./package.json`;
 * `onlySpecified` - Decides if you only want to retrieve the files specified by the package.json or just all files from the package, ah yeah both still have the glob applied of course, defaults to `true`;
